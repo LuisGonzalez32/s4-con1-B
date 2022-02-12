@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+* {
+    /* step 01 */
+}
+
+#persons {
+    /* step 02 */
+
+  }
+
+  #persons td, #persons th {
+    /* step 02 */
+    /* colors #ddd */
+  }
+
+  #persons tr:nth-child(even){
+    /* step 02 */
+    /* colors  #f2f2f2 */
+  }
+
+  #persons tr:hover {
+    /* step 02 */
+    /* colors  #ddd */
+  }
+
+  /* step 02 */
+  /* colors  white, #04AA6D */
+  #persons th {
+
+  }
