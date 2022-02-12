@@ -9,6 +9,5 @@ accum("cwAt") -> "C-Ww-Aaa-Tttt"
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 """
 
-
 def accum(s):
-    pass
+    return '-'.join('{:{char}<{number}}'.format(s[i].upper(), char = s[i].lower(), number = i + 1) for i in range(len(s)))

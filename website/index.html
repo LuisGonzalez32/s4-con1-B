@@ -6,47 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <title>html css</title>
 </head>
 
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+    #ubuntu {
+        font-family: 'Ubuntu Mono', monospace;
+    }
+
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+      }
+      
+      #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #customers tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #customers tr:hover {background-color: #ddd;}
+      
+      #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+      }
+
+</style>
+
 <body>
-    <h1>html css</h1>
+    <div id="ubuntu">
+        <h1>html css</h1>
 
-    <p>step 01: add ubuntu mono from google fonts to the style.css file</p>
-    <!-- remove this when finished step 01 -->
-    <p>step 01 final:</p>
-    <img src="./step_01.PNG" alt="step_01">
-    <!-- remove this when finished step 01 -->
+        <p>step 01: add ubuntu mono from google fonts to the style.css file</p>
+        <!-- remove this when finished step 01 -->
+        <p>step 01 final:</p>
+        <img src="./step_01.PNG" alt="step_01">
+        <!-- remove this when finished step 01 -->
 
-    <p>step 02: make a fancy table with colors and all</p>
-    <table id="persons">
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Balbino</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Javier</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Gaby</td>
-            <td>28</td>
-        </tr>
-    </table>
-    <!-- remove this when finished step 02 -->
-    <div>
-        <p>step 02 final:</p>
-        <img src="./step_02.PNG" alt="step_02">
+        <p>step 02: make a fancy table with colors and all</p>
+        <table id="customers">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Balbino</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Javier</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gaby</td>
+                <td>28</td>
+            </tr>
+        </table>
+        <!-- remove this when finished step 02 -->
+        <div>
+            <p>step 02 final:</p>
+            <img src="./step_02.PNG" alt="step_02">
+        </div>
+        <!-- remove this when finished step 02 -->
     </div>
-    <!-- remove this when finished step 02 -->
+    
 
 </body>
 

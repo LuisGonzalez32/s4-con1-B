@@ -14,4 +14,8 @@ Note: keep the original order of the names in the output.
 
 
 def friend(x):
-    pass
+    new_friends = []
+    for str in x:
+        if len(str) == 4:
+            new_friends.append(str)
+    return new_friends
